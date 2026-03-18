@@ -1,0 +1,13 @@
+[project]
+name = "consistency-models"
+version = "0.1.0"
+description = "Minimal PyTorch reproduction of 'Consistency Models' for research bootstrapping."
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.1.0",
+    "torchvision>=0.17.0",
+    "pyyaml>=6.0"
+]
+
+[project.scripts]
+consistency-train = "consistency.training.loop:main_entry"

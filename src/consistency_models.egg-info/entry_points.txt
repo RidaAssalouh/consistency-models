@@ -1,0 +1,2 @@
+[console_scripts]
+consistency-train = consistency.training.loop:main_entry
