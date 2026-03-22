@@ -1,5 +1,8 @@
-"""Model building blocks for consistency training."""
+"""Model building blocks for the toy 2D consistency experiments."""
 
-from .ncsnpp import NCSNpp
+from .mlp_time import ConsistencyMLP, DiffusionDenoiserMLP
 
-__all__ = ["NCSNpp"]
+__all__ = [
+    "ConsistencyMLP",
+    "DiffusionDenoiserMLP",
+]

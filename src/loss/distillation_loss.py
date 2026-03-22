@@ -219,7 +219,7 @@ def distillation_loss(
             p=distance
         )
 
-    weights = loss_weight_fn(batch.t_nplus1)
+    weights = loss_weight_fn(batch.t_n)
     if weights.ndim != 1:
         raise ValueError(
             f"loss_weight_fn must return shape (B,), got {tuple(weights.shape)}."
