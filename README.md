@@ -10,23 +10,23 @@ Consistency Models learn to map any point on a diffusion trajectory directly to 
 
 Our implementation follows a staged approach:
 
-1. **Toy Experiments** (`toy_experiments/`): Initial research and exploration using toy datasets (e.g., make_moons) to validate core consistency model concepts.
+1. **Toy Experiments** (`toy_experiments/`): Initial research and exploration using a toy dataset, namely `scikit-learn`'s make_moons.
 
 2. **Fashion-MNIST**: Full-scale experiments with both training approaches:
    - **Consistency Distillation (CD)**: Distill from our own pretrained EDM-based teacher model
    - **Consistency Training (CT)**: Direct training without a teacher
    - Both L1 and L2 loss variants explored
 
-3. **CelebA**: Consistency Training only (due to limited compute). CelebA offers a more challenging, realistic image domain to validate scaling beyond toy datasets.
+3. **CelebA**: Consistency Training only (due to limited compute). CelebA offers a more challenging, realistic image domain to validate scaling beyond smaller datasets.
 
 ## Project Structure
 
 ```
 .
 ├── models/                           # Model architectures
-│   ├── cd_model_utils.py            # CD training U-Net
-│   ├── ct_model_utils.py            # CT training U-Net
-│   └── teacher_utils.py             # Teacher/diffusion model
+│   ├── cd_model_utils.py            # UNet based
+│   ├── ct_model_utils.py            # UNet based
+│   └── teacher_utils.py             # UNet based
 │
 ├── training/                         # Training scripts
 │   ├── train_cd_fashionmnist.py     # CD: Fashion-MNIST
@@ -36,10 +36,10 @@ Our implementation follows a staged approach:
 │   └── train_classifiier_fashionmnist.py
 │
 ├── eval/                             # Evaluation scripts
-│   ├── eval_cd_fashionmnist.py
-│   ├── eval_ct_fashionmnist.py
-│   ├── label_coverage_ct_cd.py
-│   └── sample_multistep_celeba_ct.py
+│   ├── eval_cd_fashionmnist.py  # 1-step and multi-step sampling using CT model trained on FashionMNIST
+│   ├── eval_ct_fashionmnist.py  # 1-step and multi-step sampling using CT model trained on FashionMNIST
+│   ├── label_coverage_ct_cd.py   # FashionMNIST Generation diversity check
+│   └── sample_multistep_celeba_ct.py # 1-step and multi-step sampling using CT model trained on CelebA
 │
 ├── inverse_problems_experiments/     # Downstream applications
 │   ├── colorize_celeba.py
@@ -52,10 +52,10 @@ Our implementation follows a staged approach:
 │   ├── train_cd.py
 │   ├── train_ct.py
 │   ├── train_edm_denoiser.py
-│   ├── denoising_penalty_effect.py
+│   ├── denoising_penalty_effect.py  
 │   └── paths_viz.py
 │
-├── storage/                          # Checkpoints and results (via symlink)
+├
 ├── figures/                          # Evaluation results and metrics
 └── inverse_problems_results/         # Saved inverse problem outputs
 ```
@@ -77,14 +77,13 @@ Start with toy datasets to understand and validate the consistency model framewo
 
 ```bash
 cd toy_experiments
-python train_ct.py      # Train consistency model on toy data
-python train_cd.py      # Distillation on toy data
+python train_ct.py      # Train CT model on toy data
+python train_cd.py      # CD on toy data
 python paths_viz.py     # Visualize learned mappings
 ```
 
-These scripts experiment with hyperparameters and core concepts before moving to real datasets.
 
-### 2. Fashion-MNIST: Full Experimental Pipeline
+### 2. Fashion-MNIST: 
 
 #### Step 1: Pretrain an EDM-based Teacher
 
@@ -109,7 +108,6 @@ Configuration options:
 - `teacher_ckpt_path`: Path to the pretrained teacher checkpoint
 - `output_dir`: Where to save CD model checkpoints
 - `num_steps`: Number of sampling steps 
-- Optionally adjust batch size, learning rate, and number of epochs
 
 #### Step 3: Consistency Training (CT)
 
@@ -119,7 +117,6 @@ Train directly without a teacher model:
 python train_ct_fashionmnist.py
 ```
 
-This approach doesn't require a pretrained teacher.
 
 #### Step 4: Evaluation
 
@@ -128,14 +125,14 @@ Evaluate both approaches (generation quality):
 ```bash
 cd eval
 python eval_ct_fashionmnist.py   # Evaluate CT model 
-python eval_cd_fashionmnist.py   # Evaluate CD model and compare
+python eval_cd_fashionmnist.py   # Evaluate CD model 
 ```
 
 Results and metrics are saved to `figures/`.
 
 ### 3. CelebA: Consistency Training
 
-Due to computational constraints, we use only Consistency Training in Isolation (without a teacher) on the more challenging CelebA dataset:
+Due to computational constraints, we use only Consistency Training in Isolation on CelebA (`64x64` + 60k samples) dataset:
 
 ```bash
 cd training
@@ -149,7 +146,7 @@ cd eval
 python sample_multistep_celeba_ct.py  # Generate and analyze samples
 ```
 
-### Downstream Applications
+### Inverse Problems
 
 After training, we apply consistency models to inverse problems:
 
@@ -171,10 +168,6 @@ This implementation is based on:
 
 **Consistency Models** (Yang Song, Prafulla Dhariwal, Mark Chen, Ilya Sutskever)
 - Paper: [arXiv:2303.01469](https://arxiv.org/abs/2303.01469)
-- Key contribution: Achieve high-quality generation in 1-2 steps without adversarial training
-
-
-## Citation
 
 ```bibtex
 @article{song2023consistency,
