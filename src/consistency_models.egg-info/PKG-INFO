@@ -1,8 +1,0 @@
-Metadata-Version: 2.4
-Name: consistency-models
-Version: 0.1.0
-Summary: Minimal PyTorch reproduction of 'Consistency Models' for research bootstrapping.
-Requires-Python: >=3.10
-Requires-Dist: torch>=2.1.0
-Requires-Dist: torchvision>=0.17.0
-Requires-Dist: pyyaml>=6.0

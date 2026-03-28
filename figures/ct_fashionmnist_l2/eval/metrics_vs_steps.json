@@ -1,0 +1,142 @@
+[
+  {
+    "steps": 1,
+    "domain_fid": 0.09999306823467707,
+    "precision": 0.423828125,
+    "recall": 0.9111328125,
+    "inception_fid": 81.55030059814453
+  },
+  {
+    "steps": 2,
+    "domain_fid": 0.10073366248008489,
+    "precision": 0.44921875,
+    "recall": 0.9140625,
+    "inception_fid": 81.11585998535156
+  },
+  {
+    "steps": 3,
+    "domain_fid": 0.07141674726533387,
+    "precision": 0.60595703125,
+    "recall": 0.8857421875,
+    "inception_fid": 61.907169342041016
+  },
+  {
+    "steps": 4,
+    "domain_fid": 0.07237273631598387,
+    "precision": 0.59814453125,
+    "recall": 0.87060546875,
+    "inception_fid": 67.89374542236328
+  },
+  {
+    "steps": 5,
+    "domain_fid": 0.05796646612143734,
+    "precision": 0.65185546875,
+    "recall": 0.86572265625,
+    "inception_fid": 64.4248275756836
+  },
+  {
+    "steps": 6,
+    "domain_fid": 0.058690685280667405,
+    "precision": 0.669921875,
+    "recall": 0.85302734375,
+    "inception_fid": 62.48965835571289
+  },
+  {
+    "steps": 7,
+    "domain_fid": 0.05242916528007224,
+    "precision": 0.66796875,
+    "recall": 0.8759765625,
+    "inception_fid": 58.5654182434082
+  },
+  {
+    "steps": 8,
+    "domain_fid": 0.04837297841976899,
+    "precision": 0.71044921875,
+    "recall": 0.86376953125,
+    "inception_fid": 58.04301834106445
+  },
+  {
+    "steps": 9,
+    "domain_fid": 0.05030578856370798,
+    "precision": 0.7119140625,
+    "recall": 0.87109375,
+    "inception_fid": 59.51902770996094
+  },
+  {
+    "steps": 10,
+    "domain_fid": 0.048751036494305906,
+    "precision": 0.71142578125,
+    "recall": 0.85302734375,
+    "inception_fid": 57.26634979248047
+  },
+  {
+    "steps": 11,
+    "domain_fid": 0.044082464981979506,
+    "precision": 0.71435546875,
+    "recall": 0.86865234375,
+    "inception_fid": 58.1651725769043
+  },
+  {
+    "steps": 12,
+    "domain_fid": 0.042586771913874846,
+    "precision": 0.736328125,
+    "recall": 0.85107421875,
+    "inception_fid": 56.98019790649414
+  },
+  {
+    "steps": 13,
+    "domain_fid": 0.04028916765299216,
+    "precision": 0.732421875,
+    "recall": 0.83984375,
+    "inception_fid": 56.01274108886719
+  },
+  {
+    "steps": 14,
+    "domain_fid": 0.040926477453434744,
+    "precision": 0.73193359375,
+    "recall": 0.86474609375,
+    "inception_fid": 56.127113342285156
+  },
+  {
+    "steps": 15,
+    "domain_fid": 0.0410339440280762,
+    "precision": 0.7392578125,
+    "recall": 0.86083984375,
+    "inception_fid": 56.03749084472656
+  },
+  {
+    "steps": 16,
+    "domain_fid": 0.03454629597787753,
+    "precision": 0.74462890625,
+    "recall": 0.82080078125,
+    "inception_fid": 56.65230941772461
+  },
+  {
+    "steps": 17,
+    "domain_fid": 0.036322140407711284,
+    "precision": 0.75048828125,
+    "recall": 0.8447265625,
+    "inception_fid": 55.82411193847656
+  },
+  {
+    "steps": 18,
+    "domain_fid": 0.038067834369103326,
+    "precision": 0.7744140625,
+    "recall": 0.8486328125,
+    "inception_fid": 56.23792266845703
+  },
+  {
+    "steps": 19,
+    "domain_fid": 0.03537460913723667,
+    "precision": 0.751953125,
+    "recall": 0.8271484375,
+    "inception_fid": 56.69153594970703
+  },
+  {
+    "steps": 20,
+    "domain_fid": 0.0390590915676273,
+    "precision": 0.759765625,
+    "recall": 0.84033203125,
+    "inception_fid": 55.856407165527344
+  }
+]

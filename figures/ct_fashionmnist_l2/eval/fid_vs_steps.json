@@ -1,0 +1,122 @@
+[
+  {
+    "steps": 1,
+    "fid": 81.44933319091797,
+    "samples_path": "figures/ct_fashionmnist_/eval/ct_samples_steps01_ema.png",
+    "progress_path": "figures/ct_fashionmnist_/eval/ct_progress_steps01_ema.png"
+  },
+  {
+    "steps": 2,
+    "fid": 81.76422119140625,
+    "samples_path": "figures/ct_fashionmnist_/eval/ct_samples_steps02_ema.png",
+    "progress_path": "figures/ct_fashionmnist_/eval/ct_progress_steps02_ema.png"
+  },
+  {
+    "steps": 3,
+    "fid": 60.58628463745117,
+    "samples_path": "figures/ct_fashionmnist_/eval/ct_samples_steps03_ema.png",
+    "progress_path": "figures/ct_fashionmnist_/eval/ct_progress_steps03_ema.png"
+  },
+  {
+    "steps": 4,
+    "fid": 69.74412536621094,
+    "samples_path": "figures/ct_fashionmnist_/eval/ct_samples_steps04_ema.png",
+    "progress_path": "figures/ct_fashionmnist_/eval/ct_progress_steps04_ema.png"
+  },
+  {
+    "steps": 5,
+    "fid": 66.13560485839844,
+    "samples_path": "figures/ct_fashionmnist_/eval/ct_samples_steps05_ema.png",
+    "progress_path": "figures/ct_fashionmnist_/eval/ct_progress_steps05_ema.png"
+  },
+  {
+    "steps": 6,
+    "fid": 61.50869369506836,
+    "samples_path": "figures/ct_fashionmnist_/eval/ct_samples_steps06_ema.png",
+    "progress_path": "figures/ct_fashionmnist_/eval/ct_progress_steps06_ema.png"
+  },
+  {
+    "steps": 7,
+    "fid": 59.936710357666016,
+    "samples_path": "figures/ct_fashionmnist_/eval/ct_samples_steps07_ema.png",
+    "progress_path": "figures/ct_fashionmnist_/eval/ct_progress_steps07_ema.png"
+  },
+  {
+    "steps": 8,
+    "fid": 57.75664520263672,
+    "samples_path": "figures/ct_fashionmnist_/eval/ct_samples_steps08_ema.png",
+    "progress_path": "figures/ct_fashionmnist_/eval/ct_progress_steps08_ema.png"
+  },
+  {
+    "steps": 9,
+    "fid": 59.74459457397461,
+    "samples_path": "figures/ct_fashionmnist_/eval/ct_samples_steps09_ema.png",
+    "progress_path": "figures/ct_fashionmnist_/eval/ct_progress_steps09_ema.png"
+  },
+  {
+    "steps": 10,
+    "fid": 57.70647430419922,
+    "samples_path": "figures/ct_fashionmnist_/eval/ct_samples_steps10_ema.png",
+    "progress_path": "figures/ct_fashionmnist_/eval/ct_progress_steps10_ema.png"
+  },
+  {
+    "steps": 11,
+    "fid": 58.27086639404297,
+    "samples_path": "figures/ct_fashionmnist_/eval/ct_samples_steps11_ema.png",
+    "progress_path": "figures/ct_fashionmnist_/eval/ct_progress_steps11_ema.png"
+  },
+  {
+    "steps": 12,
+    "fid": 56.46843719482422,
+    "samples_path": "figures/ct_fashionmnist_/eval/ct_samples_steps12_ema.png",
+    "progress_path": "figures/ct_fashionmnist_/eval/ct_progress_steps12_ema.png"
+  },
+  {
+    "steps": 13,
+    "fid": 56.46713638305664,
+    "samples_path": "figures/ct_fashionmnist_/eval/ct_samples_steps13_ema.png",
+    "progress_path": "figures/ct_fashionmnist_/eval/ct_progress_steps13_ema.png"
+  },
+  {
+    "steps": 14,
+    "fid": 56.72834777832031,
+    "samples_path": "figures/ct_fashionmnist_/eval/ct_samples_steps14_ema.png",
+    "progress_path": "figures/ct_fashionmnist_/eval/ct_progress_steps14_ema.png"
+  },
+  {
+    "steps": 15,
+    "fid": 56.151756286621094,
+    "samples_path": "figures/ct_fashionmnist_/eval/ct_samples_steps15_ema.png",
+    "progress_path": "figures/ct_fashionmnist_/eval/ct_progress_steps15_ema.png"
+  },
+  {
+    "steps": 16,
+    "fid": 55.67043685913086,
+    "samples_path": "figures/ct_fashionmnist_/eval/ct_samples_steps16_ema.png",
+    "progress_path": "figures/ct_fashionmnist_/eval/ct_progress_steps16_ema.png"
+  },
+  {
+    "steps": 17,
+    "fid": 56.21817398071289,
+    "samples_path": "figures/ct_fashionmnist_/eval/ct_samples_steps17_ema.png",
+    "progress_path": "figures/ct_fashionmnist_/eval/ct_progress_steps17_ema.png"
+  },
+  {
+    "steps": 18,
+    "fid": 56.809730529785156,
+    "samples_path": "figures/ct_fashionmnist_/eval/ct_samples_steps18_ema.png",
+    "progress_path": "figures/ct_fashionmnist_/eval/ct_progress_steps18_ema.png"
+  },
+  {
+    "steps": 19,
+    "fid": 56.219356536865234,
+    "samples_path": "figures/ct_fashionmnist_/eval/ct_samples_steps19_ema.png",
+    "progress_path": "figures/ct_fashionmnist_/eval/ct_progress_steps19_ema.png"
+  },
+  {
+    "steps": 20,
+    "fid": 56.44158172607422,
+    "samples_path": "figures/ct_fashionmnist_/eval/ct_samples_steps20_ema.png",
+    "progress_path": "figures/ct_fashionmnist_/eval/ct_progress_steps20_ema.png"
+  }
+]

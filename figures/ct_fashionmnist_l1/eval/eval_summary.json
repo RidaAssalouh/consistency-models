@@ -1,0 +1,32 @@
+[
+  {
+    "steps": 1,
+    "samples_path": "figures/ct_fashionmnist_l1/eval/samples_01_steps.png",
+    "trajectory_path": "figures/ct_fashionmnist_l1/eval/trajectory_first_sample_01_steps.png",
+    "domain_fid": 0.0409838085601841
+  },
+  {
+    "steps": 2,
+    "samples_path": "figures/ct_fashionmnist_l1/eval/samples_02_steps.png",
+    "trajectory_path": "figures/ct_fashionmnist_l1/eval/trajectory_first_sample_02_steps.png",
+    "domain_fid": 0.043310158485493015
+  },
+  {
+    "steps": 4,
+    "samples_path": "figures/ct_fashionmnist_l1/eval/samples_04_steps.png",
+    "trajectory_path": "figures/ct_fashionmnist_l1/eval/trajectory_first_sample_04_steps.png",
+    "domain_fid": 0.038689996962117015
+  },
+  {
+    "steps": 8,
+    "samples_path": "figures/ct_fashionmnist_l1/eval/samples_08_steps.png",
+    "trajectory_path": "figures/ct_fashionmnist_l1/eval/trajectory_first_sample_08_steps.png",
+    "domain_fid": 0.043298946313451214
+  },
+  {
+    "steps": 16,
+    "samples_path": "figures/ct_fashionmnist_l1/eval/samples_16_steps.png",
+    "trajectory_path": "figures/ct_fashionmnist_l1/eval/trajectory_first_sample_16_steps.png",
+    "domain_fid": 0.03941535349421378
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "checkpoint_path": "storage/ct_fashionmnist_l1/checkpoint_epoch_005.pt",
+    "checkpoint_tag": "epoch_005",
+    "best_steps": 1,
+    "best_domain_fid": 1.3628740085596966,
+    "metrics_vs_steps_json": "figures/ct_fashionmnist_l1/eval_all_ckpts_domainfid_1step/metrics_vs_steps_epoch_005.json"
+  },
+  {
+    "checkpoint_path": "storage/ct_fashionmnist_l1/checkpoint_epoch_010.pt",
+    "checkpoint_tag": "epoch_010",
+    "best_steps": 1,
+    "best_domain_fid": 0.12278042001202409,
+    "metrics_vs_steps_json": "figures/ct_fashionmnist_l1/eval_all_ckpts_domainfid_1step/metrics_vs_steps_epoch_010.json"
+  },
+  {
+    "checkpoint_path": "storage/ct_fashionmnist_l1/checkpoint_epoch_015.pt",
+    "checkpoint_tag": "epoch_015",
+    "best_steps": 1,
+    "best_domain_fid": 0.0793165656311246,
+    "metrics_vs_steps_json": "figures/ct_fashionmnist_l1/eval_all_ckpts_domainfid_1step/metrics_vs_steps_epoch_015.json"
+  },
+  {
+    "checkpoint_path": "storage/ct_fashionmnist_l1/checkpoint_epoch_020.pt",
+    "checkpoint_tag": "epoch_020",
+    "best_steps": 1,
+    "best_domain_fid": 0.07247906887711586,
+    "metrics_vs_steps_json": "figures/ct_fashionmnist_l1/eval_all_ckpts_domainfid_1step/metrics_vs_steps_epoch_020.json"
+  },
+  {
+    "checkpoint_path": "storage/ct_fashionmnist_l1/checkpoint_epoch_025.pt",
+    "checkpoint_tag": "epoch_025",
+    "best_steps": 1,
+    "best_domain_fid": 0.058576870351479494,
+    "metrics_vs_steps_json": "figures/ct_fashionmnist_l1/eval_all_ckpts_domainfid_1step/metrics_vs_steps_epoch_025.json"
+  },
+  {
+    "checkpoint_path": "storage/ct_fashionmnist_l1/checkpoint_epoch_030.pt",
+    "checkpoint_tag": "epoch_030",
+    "best_steps": 1,
+    "best_domain_fid": 0.05995187917755362,
+    "metrics_vs_steps_json": "figures/ct_fashionmnist_l1/eval_all_ckpts_domainfid_1step/metrics_vs_steps_epoch_030.json"
+  },
+  {
+    "checkpoint_path": "storage/ct_fashionmnist_l1/checkpoint_epoch_035.pt",
+    "checkpoint_tag": "epoch_035",
+    "best_steps": 1,
+    "best_domain_fid": 0.05204412927637399,
+    "metrics_vs_steps_json": "figures/ct_fashionmnist_l1/eval_all_ckpts_domainfid_1step/metrics_vs_steps_epoch_035.json"
+  },
+  {
+    "checkpoint_path": "storage/ct_fashionmnist_l1/checkpoint_epoch_040.pt",
+    "checkpoint_tag": "epoch_040",
+    "best_steps": 1,
+    "best_domain_fid": 0.054852846115529465,
+    "metrics_vs_steps_json": "figures/ct_fashionmnist_l1/eval_all_ckpts_domainfid_1step/metrics_vs_steps_epoch_040.json"
+  },
+  {
+    "checkpoint_path": "storage/ct_fashionmnist_l1/checkpoint_epoch_045.pt",
+    "checkpoint_tag": "epoch_045",
+    "best_steps": 1,
+    "best_domain_fid": 0.05041643443872719,
+    "metrics_vs_steps_json": "figures/ct_fashionmnist_l1/eval_all_ckpts_domainfid_1step/metrics_vs_steps_epoch_045.json"
+  },
+  {
+    "checkpoint_path": "storage/ct_fashionmnist_l1/checkpoint_epoch_050.pt",
+    "checkpoint_tag": "epoch_050",
+    "best_steps": 1,
+    "best_domain_fid": 0.04747908364712754,
+    "metrics_vs_steps_json": "figures/ct_fashionmnist_l1/eval_all_ckpts_domainfid_1step/metrics_vs_steps_epoch_050.json"
+  },
+  {
+    "checkpoint_path": "storage/ct_fashionmnist_l1/checkpoint_epoch_055.pt",
+    "checkpoint_tag": "epoch_055",
+    "best_steps": 1,
+    "best_domain_fid": 0.04403427151259766,
+    "metrics_vs_steps_json": "figures/ct_fashionmnist_l1/eval_all_ckpts_domainfid_1step/metrics_vs_steps_epoch_055.json"
+  },
+  {
+    "checkpoint_path": "storage/ct_fashionmnist_l1/checkpoint_epoch_060.pt",
+    "checkpoint_tag": "epoch_060",
+    "best_steps": 1,
+    "best_domain_fid": 0.04485248905645784,
+    "metrics_vs_steps_json": "figures/ct_fashionmnist_l1/eval_all_ckpts_domainfid_1step/metrics_vs_steps_epoch_060.json"
+  },
+  {
+    "checkpoint_path": "storage/ct_fashionmnist_l1/checkpoint_epoch_065.pt",
+    "checkpoint_tag": "epoch_065",
+    "best_steps": 1,
+    "best_domain_fid": 0.0465715562932999,
+    "metrics_vs_steps_json": "figures/ct_fashionmnist_l1/eval_all_ckpts_domainfid_1step/metrics_vs_steps_epoch_065.json"
+  },
+  {
+    "checkpoint_path": "storage/ct_fashionmnist_l1/checkpoint_epoch_070.pt",
+    "checkpoint_tag": "epoch_070",
+    "best_steps": 1,
+    "best_domain_fid": 0.04546231208357812,
+    "metrics_vs_steps_json": "figures/ct_fashionmnist_l1/eval_all_ckpts_domainfid_1step/metrics_vs_steps_epoch_070.json"
+  },
+  {
+    "checkpoint_path": "storage/ct_fashionmnist_l1/checkpoint_epoch_075.pt",
+    "checkpoint_tag": "epoch_075",
+    "best_steps": 1,
+    "best_domain_fid": 0.03940900976211051,
+    "metrics_vs_steps_json": "figures/ct_fashionmnist_l1/eval_all_ckpts_domainfid_1step/metrics_vs_steps_epoch_075.json"
+  },
+  {
+    "checkpoint_path": "storage/ct_fashionmnist_l1/checkpoint_epoch_080.pt",
+    "checkpoint_tag": "epoch_080",
+    "best_steps": 1,
+    "best_domain_fid": 0.04535347233093912,
+    "metrics_vs_steps_json": "figures/ct_fashionmnist_l1/eval_all_ckpts_domainfid_1step/metrics_vs_steps_epoch_080.json"
+  },
+  {
+    "checkpoint_path": "storage/ct_fashionmnist_l1/checkpoint_epoch_085.pt",
+    "checkpoint_tag": "epoch_085",
+    "best_steps": 1,
+    "best_domain_fid": 0.047339244916371835,
+    "metrics_vs_steps_json": "figures/ct_fashionmnist_l1/eval_all_ckpts_domainfid_1step/metrics_vs_steps_epoch_085.json"
+  },
+  {
+    "checkpoint_path": "storage/ct_fashionmnist_l1/ct_model_final.pt",
+    "checkpoint_tag": "final",
+    "best_steps": 1,
+    "best_domain_fid": 0.039242570561785796,
+    "metrics_vs_steps_json": "figures/ct_fashionmnist_l1/eval_all_ckpts_domainfid_1step/metrics_vs_steps_final.json"
+  }
+]

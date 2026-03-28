@@ -1,0 +1,8 @@
+[
+  {
+    "checkpoint_path": "storage/ct_fashionmnist_l1/ct_model_final.pt",
+    "checkpoint_tag": "final",
+    "steps": 1,
+    "domain_fid": 0.039242570561785796
+  }
+]
